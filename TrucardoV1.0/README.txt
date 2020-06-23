@@ -13,6 +13,7 @@ Bugs conocidos:
 	-Si se tiene la ventana abierta de detalles, al finalizar la ronda cuando se actualizan los puntos, el fondo de la ventana puede crashear y se debe reiniciar la ventana de detalles.
 	-Cuando se canta envido y la AI acepta, en el log primero se imprimen los puntos de los jugadores y luego la respuesta “Quiero” de la AI. Esto debería ser en el orden opuesto.
 	-En primera ronda es posible cantar truco y una vez que este es aceptado cantar envido. Una vez que se canta truco no se debería poder cantar envido.
+	-Es necesario jugar en una pantalla que sea como mínimo 1600x900, esto se intentará resolver en futuras releases.
 
 Bugs arreglados:
 	-En la segunda mano, cuando la máquina quería jugar una carta se lanzaba una excepción de IndexOutofBounds, la cual crasheaba el programa. Esto fue solucionado y ahora es posible jugar una partida sin problemas.
